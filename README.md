@@ -33,6 +33,32 @@
 ####  border:
         BoxBorder of your image
 
+## Example using: 
+        ScrollController controller = ScrollController();
+        ...
+        AvatarStack(
+        controller: controller,
+        top: 200,
+        radius: 150,
+        child: ListView(
+          controller: controller,
+          children: [
+            ...[
+              Colors.red,
+              Colors.blue,
+              Colors.blueGrey,
+              Colors.deepPurple,
+              Colors.green,
+              Colors.amber,
+              Colors.black,
+              Colors.purple,
+              Colors.yellow,
+              Colors.brown
+            ].map((e) => Container(width: 450, height: 200, color: e))
+          ],
+        ),
+      ),
+
 
 # VIRA CODE
 ### [Github](github.com/viracode/)
