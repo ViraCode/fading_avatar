@@ -14,7 +14,7 @@ class AvatarStack extends StatefulWidget {
 
   const AvatarStack(
       {Key key,
-      this.controller,
+      @required this.controller,
       this.top,
       this.left,
       this.radius = 60,
