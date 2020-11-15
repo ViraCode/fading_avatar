@@ -34,6 +34,8 @@
         BoxBorder of your image
 
 ## Example using: 
+[![Demo CountPages alpha](https://raw.githubusercontent.com/ViraCode/fading_avatar/master/example/fading-avatar.gif)]
+
         ScrollController controller = ScrollController();
         ...
         AvatarStack(
